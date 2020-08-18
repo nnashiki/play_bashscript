@@ -5,6 +5,9 @@ bash script を練習してみる
 - https://shellscript.sunone.me/parameter.html
 - https://qiita.com/mohira/items/566ca75d704072bcb26f
 
+ロングオプション
+https://teratail.com/questions/26731
+
 # hoge.bash オプション付きのshellを書いてみる 
 
 ```
