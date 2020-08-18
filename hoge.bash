@@ -3,10 +3,10 @@
 CMDNAME=$(basename $0)
 
 # getopts コマンドの第一引数にはシェルスクリプトに指定可能なオプションを指定し、さらそのオプションが値を要する場合は : (コロン) を付ける。
-while getopts ab: OPT; do
+while getopts ao OPT; do
   case $OPT in
-  "a") FLG_A="TRUE" ;;
-  "b")
+  a) FLG_A="TRUE" ;;
+  o)
     FLG_B="TRUE"
     VALUE_B="$OPTARG"
     ;;
